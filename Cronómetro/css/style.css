@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Estilos generales */
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #159957; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #155799, #159957); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #155799,
+    #159957
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container-principal{
+    width: 80vw;
+    max-width: 350px;
+    min-height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #272B35;
+    border: 5px solid #B11F5B;
+}
+
+
+
+
+/* cronometro */
+#cronometro{
+    width: 100%;
+    font-size: 60px;
+    user-select: none;
+    font-family: "Roboto Mono", monospace;
+    color: #fff;
+    transition: all 0.2s;
+}
+
+/* Botones */
+.boton{
+    width: 60px;
+    height: 60px;
+    background-color: #E11564;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    margin: none;
+    cursor: pointer;
+   
+}
+
+.boton:hover{
+    background-color: #B11F5B;
+}
+#boton-start-pause.iniciar,
+#boton-start-pause.iniciar i{
+    color: #f7f7f7;
+    font-size: 30px;
+   
+}
+
+#boton-start-pause.pausar,
+#boton-start-pause.pausar i{
+    color: #E11564;
+    background-color: #fdfdfd;
+    font-size: 30px;
+    
+}
+
+
+#boton-reiniciar{
+    color: #faf9f6;
+    font-size: 25px;
+   
+}
+
